@@ -1,0 +1,26 @@
+{
+    "name": "pmc/messagebus",
+    "description": "Message bus that supports multiple listeners per message.",
+    
+    "authors": [
+        {
+            "name": "Gargoyle",
+            "email": "g@rgoyle.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Pmc\\MessageBus\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "Pmc\\MessageBus\\Tests\\": "tests/" }
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}

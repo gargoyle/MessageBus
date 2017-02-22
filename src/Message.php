@@ -3,7 +3,7 @@
 namespace Pmc\MessageBus;
 
 /**
- * @author Paul Court <emails@paulcourt.co.uk>
+ * @author Gargoyle <g@rgoyle.com>
  */
 interface Message
 {

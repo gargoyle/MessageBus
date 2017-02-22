@@ -5,7 +5,7 @@ namespace Pmc\MessageBus;
 /**
  * Methods listeners must implement
  * 
- * @author Paul Court <emails@paulcourt.co.uk>
+ * @author Gargoyle <g@rgoyle.com>
  */
 interface Listener
 {

@@ -5,7 +5,7 @@ namespace Pmc\MessageBus;
 /**
  * Maintain a list of listeners and dispatch messages to all required listeners.
  *
- * @author Paul Court <paul@pmcnetworks.co.uk>
+ * @author Gargoyle <g@rgoyle.com>
  */
 class MessageBus
 {

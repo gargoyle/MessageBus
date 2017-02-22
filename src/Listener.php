@@ -23,5 +23,5 @@ interface Listener
      * 
      * @param $message
      */
-    public function notify(Object $message): void;
+    public function notify(Message $message): void;
 }

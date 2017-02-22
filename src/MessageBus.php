@@ -27,7 +27,7 @@ class MessageBus
      * Dispatch a message to all listeners on the bus which have subscribed to the
      * message class (or a class in it's parent hierarchy)
      */
-    public function dispatch(Object $message): void
+    public function dispatch(Message $message): void
     {
         $this->logger->debug("Dispatching message",
                 [
@@ -42,7 +42,7 @@ class MessageBus
         }
     }
 
-    private function checkTypeAndNotify(Listener $listener, Object $message, string $observableClassName)
+    private function checkTypeAndNotify(Listener $listener, Message $message, string $observableClassName)
     {
         if ($message instanceof $observableClassName) {
             try {

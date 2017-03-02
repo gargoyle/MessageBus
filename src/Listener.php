@@ -20,8 +20,6 @@ interface Listener
     
     /**
      * Receive a message notification
-     * 
-     * @param $message
      */
-    public function notify(Message $message): void;
+    public function notify($message): void;
 }
